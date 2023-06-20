@@ -1,0 +1,15 @@
+body {
+  opacity: 0.5;
+}
+
+html {
+	background-size: 100%;
+  background-image: url('../design/mobile-design.jpg');
+}
+
+@media screen and (min-width: 992px) {
+  html {
+    background-size: 100%;
+    background-image: url('../design/desktop-design.jpg');
+  }
+}

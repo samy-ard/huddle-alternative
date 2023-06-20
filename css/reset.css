@@ -1,0 +1,86 @@
+* {
+	font-family: inherit;
+	box-sizing: border-box;
+}
+
+:root {
+	--primary: hsl(322, 100%, 66%);
+	--hover: hsl(321, 100%, 80%);
+	--cyan: hsl(193, 100%, 96%);
+	--light: hsl(0, 0%, 100%);
+	--dark: hsl(192, 100%, 9%);
+	--neutral: hsl(208, 11%, 55%);
+	--font-body: 'Open Sans', sans-serif;
+	--font-headings: 'Poppins', sans-serif;
+}
+
+html {
+	font-family: var(--font-body);
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+body {
+	margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: var(--font-headings);
+	margin: 0 0 1.375rem;
+}
+
+h1 {
+	font-size: 1.5rem;
+}
+
+h2 {
+	font-size: 1.25rem;
+}
+
+h3 {
+	font-size: 1.125rem;
+}
+
+p {
+	margin: 0 0 1rem;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+}
+
+.menu {
+	list-style: none;
+	padding: 0;
+	margin: 0 0 1rem;
+}
+
+.menu-item {
+	margin-bottom: 1rem;
+}
+
+.menu-link {
+	color: inherit;
+	font-size: 1.125rem;
+	text-decoration: none;
+}
+
+.menu-link:hover,
+.menu-link:focus {
+	text-decoration: underline;
+}
+
+@media screen and (min-width: 992px) {
+	h1 {
+		font-size: 2.5rem;
+	}
+
+	h2 {
+		font-size: 1.75rem;
+	}
+
+	h3 {
+		font-size: 1.5rem;
+	}
+}
